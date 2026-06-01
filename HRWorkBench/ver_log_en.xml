@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="verlog_HRWorkBench.xsl"?>
+<ver_log>
+	<entry id="1">
+		<version>0.9.9</version>
+		<date>2020.10.21</date>
+
+		<issue desc="First official beta release"
+		/>
+	</entry>
+	
+	<entry id="2">
+		<version>0.9.14</version>
+		<date>2020.11.11</date>
+		
+		<issue desc="When opening while typing on a job, apply smart indent."
+		/>
+		<issue desc="Convert encoding to add reopening capability."
+		/>
+		<issue desc="[FIX] Small tool buttons, job characters, etc. on the high DPI display."
+		/>
+		<issue desc="Job Edit Find/Replace/Go to Lines functionality added."
+					 mod_help="3.3.5. Find, Replace, and Go To Lines"
+		/>
+		<issue desc="Added constructor to the syntax highlighter."
+		/>
+		<issue desc="Deploy as installer."
+		/>
+	</entry>
+
+	<entry id="3">
+		<version>1.0.0</version>
+		<date>2020.12.6</date>
+
+		<issue desc="Added robot language syntax check function."
+					 mod_help="3.4. Check the Robot Language Syntax"
+		/>
+		<issue desc="Added Controller History Monitoring feature."
+					 mod_help="3.8 Monitor Logs in the Controller"
+		/>
+		<issue desc="Add a show/hide menu for each window to the Window menu."
+		/>
+	</entry>
+
+	<entry id="4">
+		<version>1.1.0</version>
+		<date>2020.12.21</date>
+
+		<issue desc="[FIX] Alarm help file load function missed."
+		/>
+		<issue desc="Add Korean U/I and Language Change Functions."
+					 mod_help="1.3. Configuration of the User Interface for HRWorkBench"
+		/>
+		<issue desc="Added English manual."
+		/>
+	</entry>
+
+	<entry id="5">
+		<version>1.1.1</version>
+		<date>2020.12.26</date>
+
+		<issue desc="[FIX] 'new job file' does not working when there is no jobs/ path."
+		/>
+		<issue desc="[FIX] Some Korean U/I in some dialog-box."
+		/>
+		<issue desc="[FIX] Specifies some dialog-boxes' parent to main widget."
+		/>
+		<issue desc="Append 'input' command to syntax highlight."
+		/>
+	</entry>
+
+	<entry id="6">
+		<version>1.2.0</version>
+		<date>2021.2.2</date>
+
+		<issue desc="[FIX] smart indent : mis-indent after single if."
+		/>
+		<issue desc="improve syntax highlighter : 1) true/false, pre-position, 신규 명령어 추가, 2) lighten up the darkblue-color a little."
+		/>
+		<issue desc="support open api v3, v5 together"
+		/>
+	</entry>
+	
+	<entry id="7">
+		<version>1.4.0</version>
+		<date>2022.6.9</date>
+
+		<issue desc="Added remote path for alarm help (Old: help/, New: /ata0:2/repo/release/tp/help/)"
+		/>
+		<issue desc="When click event-log update button, 'Alarm help is not ready.' message shown, if needed."
+		/>
+	</entry>
+
+	 <entry id="8">
+		<version>1.4.1</version>
+		<date>2022.6.16</date>
+
+		<issue desc="Added local (PC path) log/ view feature."
+		/>
+		<issue desc="Added aux.(auxiliary) info. view feature on event log panel."
+		/>
+		<issue desc="Added scope log viewer."
+		/>
+	</entry>
+
+	<entry id="9">
+		<version>1.4.2</version>
+		<date>2022.10.29</date>
+
+		<issue desc="Built-in alarm help; Temporarily deactivate the feature loading helps from remote."
+		/>
+		<issue desc="[FIX] If the home path is not specified, the scope log is not opened."
+		/>
+		<issue desc="[FIX] Local log is not loaded when specifying the Korean path to home path."
+		/>
+		<issue desc="[FIX] Fault occurs when specifying a home path and then another empty home path."
+		/>
+	</entry>
+
+  <entry id="10">
+    <version>1.5.0</version>
+    <date>2023.03.05</date>
+    
+    <issue desc="Change the variable monitoring window from tree to table (same specification as TP)."
+    />
+    <issue desc="Add vars/ to Explorer, remove globals node"
+    />
+    <issue desc="Main Menu - Edit, Variable added."
+    />
+    <issue desc="Add new command statements to Syntax Highlights. [FIX] bracket-related malfunctions."
+    />
+    <issue desc="Now, when displaying the step/func number on the status bar at the bottom, commented step is also considered as step."
+    />
+    <issue desc="[FIX] Replace not applied when Find/Replace a string contains symbols in all documents in the project."
+    />
+  </entry>
+
+  <entry id="11">
+    <version>1.5.1</version>
+    <date>2023.03.08</date>
+
+    <issue desc="[FIX] Abnormal behavior when select multiple rows in the global variable window and rename."
+		/>
+    <issue desc="[FIX] Setting value in global variable window doesn't appled to its file."
+		/>
+  </entry>
+
+  <entry id="12">
+    <version>1.5.2</version>
+    <date>2023.04.06</date>
+    <issue desc="Also read the newly created log files evlog_noti_??.txt and evlog_stst??.txt."
+		/>
+  </entry>
+  
+  <entry id="13">
+    <version>1.5.3</version>
+    <date>2023.04.13</date>
+    <issue desc="[FIX] Scope log's type-specific casting is mishandled."
+		/>
+    <issue desc="[FIX] Scope log's marker timestamp is misinterpreted as local time."
+		/>
+  </entry>
+  
+  <entry id="14">
+    <version>1.5.4</version>
+    <date>2023.05.06</date>
+    <issue desc="[FIX] After reconnecting the monitoring, the alarm help is in an unprepared state, so log monitoring doesn't work."
+		/>
+  </entry>
+
+  <entry id="15">
+    <version>1.5.5</version>
+    <date>2023.07.07</date>
+    <issue desc="Added Find Event feature on the Event Log window."
+		/>
+  </entry>
+
+  <entry id="16">
+    <version>1.5.7</version>
+    <date>2023.12.21</date>
+    <issue desc="PC path can be set with the pop-up menu 'Set PC backup path' on the PC node."
+		/>
+    <issue desc="[FIX] Fault occurs when the eid of log events exceeds the int range."
+		/>
+    <issue desc="[FIX] Python error histories are not displayed in the log window."
+		/>
+    <issue desc="[FIX] Rename operation doesn't work in the variable window."
+		/>	
+    <issue desc="The timestamp in the event history window has been improved from msec to usec (supported from Hi6 V60.26-00)."
+		/>
+    <issue desc="The update speed has been improved when repeatedly toggling the event log's category filter."
+		/>
+    <issue desc="Program counter is also displayed in the notice/history/operation rows in the event log window (supported from Hi6V60.26-00)."
+		/>
+    <issue desc="Current selection of an event row maintained, even when the filter in the event log changed."
+		/>	
+  </entry>
+
+  <entry id="17">
+    <version>1.5.8</version>
+    <date>2024.04.11</date>
+    <issue desc="Add EDR_LOG/, EC_LOG/, cifX/, apps/ as backup items."
+		/>
+  </entry>
+
+  <entry id="18">
+    <version>1.5.9</version>
+    <date>2025.03.06</date>
+    <issue desc="[FIX] Size-cursor doesn't appear in the border of the pane border."
+		/>
+    <issue desc="Alarm help is updated based on Hi6 V60.30-00."
+		/>
+  </entry>
+
+  <entry id="19">
+    <version>1.6.0</version>
+    <date>2025.07.31</date>
+    <issue desc="[FIX] The S/F number at the bottom of the Job window occasionally displayed garbage values."/>
+    <issue desc="Added a feature to adjust the font size in the Job editor using Ctrl + mouse wheel."/>
+    <issue desc="Updated alarm help based on Hi6 V60.30-06."/>
+  </entry>
+
+  <entry id="20">
+    <version>1.7.0</version>
+    <date>2025.10.04</date>
+    <issue desc="Added property porting feature."/>
+  </entry>
+
+  <entry id="21">
+    <version>1.7.1</version>
+    <date>2025.10.14</date>
+    <issue desc="[FIX] A fault occurs, when searching for a non-existent name in the .json tree view without selecting a tree node."/>
+    <issue desc="Added an error message for .json file parsing failures."/>
+	 <issue desc="Added a feature to display the target step of the move statement in the event history log as aux. data. (Supported from Hi6 V60.32-00)"/>
+  </entry>
+
+  <entry id="22">
+    <version>1.8.0</version>
+    <date>2026.02.24</date>
+    <issue desc="[FIX] Optimizing font and icon sizes for non-100% display scaling."/>
+  </entry>
+
+  <entry id="23">
+    <version>1.8.1</version>
+    <date>2026.05.06</date>
+    <issue desc="[FIX] Execution logs incorrectly recorded as ?{ 'pc': 'T19823/0/4' } were not being displayed."/>
+  </entry>
+</ver_log>
