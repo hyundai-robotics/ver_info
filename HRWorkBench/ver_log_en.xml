@@ -245,4 +245,13 @@
     <date>2026.05.06</date>
     <issue desc="[FIX] Execution logs incorrectly recorded as ?{ 'pc': 'T19823/0/4' } were not being displayed."/>
   </entry>
+
+  <entry id="24">
+    <version>1.10.0</version>
+    <date>2026.06.02</date>
+    <issue desc="[FIX] Doesn't navigate to the corresponding job location when double-clicking program counter field in the Event Log window."/>
+    <issue desc="Event log window - Added support for copying text from individual cells or entire rows."/>
+    <issue desc="Event log window - Added update button, progress-bar."/>
+    <issue desc="Help - Added check latest version dialog."/>
+  </entry>
 </ver_log>
