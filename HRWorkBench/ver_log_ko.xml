@@ -256,4 +256,15 @@
     <issue desc="도움말 - 최신 버전 확인, 로그 표시 기능 추가"/>
   </entry>
 
+  <entry id="25">
+    <version>1.10.1</version>
+    <date>2026.06.29</date>
+    <issue desc="[FIX] 미래의 event 이력은 표시 안되는 문제 보완."/>
+  </entry>
+
+  <entry id="26">
+    <version>1.10.2</version>
+    <date>2026.07.09</date>
+    <issue desc="[FIX] 이력 창의 보조정보에서 포즈 정보가 간혹 잘못 나오는 문제 보완."/>
+  </entry>
 </ver_log>

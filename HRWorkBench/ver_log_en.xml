@@ -254,4 +254,16 @@
     <issue desc="Event log window - Added update button, progress-bar."/>
     <issue desc="Help - Added check latest version dialog."/>
   </entry>
+
+  <entry id="25">
+    <version>1.10.1</version>
+    <date>2026.06.29</date>
+    <issue desc="[FIX] Future event history is not displayed."/>
+  </entry>
+
+  <entry id="26">
+    <version>1.10.2</version>
+    <date>2026.07.09</date>
+    <issue desc="Pose information in the history window's auxiliary information is occasionally displayed incorrectly."/>
+  </entry>
 </ver_log>
