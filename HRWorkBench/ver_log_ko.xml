@@ -267,4 +267,20 @@
     <date>2026.07.09</date>
     <issue desc="[FIX] 이력 창의 보조정보에서 포즈 정보가 간혹 잘못 나오는 문제 보완."/>
   </entry>
+
+  <entry id="27">
+    <version>1.12.0</version>
+    <date>2026.08.14</date>
+    <issue desc="'경로 선택 대화상자 열기' 버튼 추가"/>
+	<issue desc="전역 변수 창 navigation 버튼 추가"/>
+    <issue desc="job 등 child window를 tab 방식으로 개선"/>
+    <issue desc="전역변수 창 pose, shift 속성 표시 순서 보완"/>
+    <issue desc="찾기 기능 보완 - 단축키 개편, 대화상자 안 열고 단축키 사용 등"/>
+    <issue desc="job/var 일치 여부 확인 기능 추가"/>
+    <issue desc="job/var 파일 backup/restore할 때의 confirm 기능 추가"/>
+    <issue desc="탐색기에 동기 버튼 추가"/>
+    <issue desc="디스플레이 배율이 100%가 아닐 때, UI 크기 보완 - 스코프 로그 화면 등"/>
+	<issue desc="[FIX] 응용 프로그램 오류 - runtime-library dll 누락 보완"/>
+	<issue desc="[FIX] 미래의 event 이력은 표시 안되는 문제 보완"/>
+  </entry>
 </ver_log>

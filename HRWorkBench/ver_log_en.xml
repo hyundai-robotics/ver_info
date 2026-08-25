@@ -266,4 +266,20 @@
     <date>2026.07.09</date>
     <issue desc="Pose information in the history window's auxiliary information is occasionally displayed incorrectly."/>
   </entry>
+
+  <entry id="27">
+    <version>1.12.0</version>
+    <date>2026.08.14</date>
+    <issue desc="Add 'Open Path Selection Dialog' button"/>
+    <issue desc="Add navigation button to Global Variables window"/>
+    <issue desc="Improve child windows (e.g., job window) to tabbed interface"/>
+    <issue desc="Adjust display order of pose and shift properties in Global Variables window"/>
+    <issue desc="Improve Find feature - overhaul shortcuts, enable shortcut use without opening dialog, etc."/>
+    <issue desc="Add job/var equality check feature"/>
+    <issue desc="Add confirmation prompt when backing up/restoring job/var files"/>
+    <issue desc="Add Sync button to Explorer"/>
+    <issue desc="Fix UI sizing for non-100% display scaling - Scope Log screen, etc."/>
+    <issue desc="[FIX] Application error - resolve missing runtime-library dll issue"/>
+    <issue desc="[FIX] Resolve issue where future event history is not displayed"/>
+  </entry>
 </ver_log>
