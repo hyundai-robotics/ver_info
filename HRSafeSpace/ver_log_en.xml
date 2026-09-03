@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="verlog_HRSafeSpace.xsl"?>
+<ver_log>
+	<entry id="1">
+		<version>2.9.1</version>
+		<date>2026.09.01</date>
+
+		<issue desc="Save .json files in Schema 3."/>
+		<issue desc="Restrict the EDIT control for positive integer items to prevent entering decimals and minus signs."/>
+		<issue desc="Remove '7: Enable switch' in I/O allocation/safety input."/>
+		<issue desc="Restrict the signal value range based on the signal type on the Replan page."/>
+		<issue desc="Restrict the input format for CIP safety SNN."/>
+		<issue desc="Restrict input values for Default I/O and additional I/O to multiples of 10 only."/>
+		<issue desc="Add validation for FuncNo+Subset and duplicate check for I/O Allocation."/>
+		<issue desc="Fix the issue where icons appear small on high DPI monitors."/>
+	</entry>
+</ver_log>

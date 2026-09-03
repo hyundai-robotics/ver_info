@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="verlog_HRSafeSpace.xsl"?>
+<ver_log>
+	<entry id="1">
+		<version>2.9.1</version>
+		<date>2026.09.01</date>
+
+		<issue desc=".json을 schema 3으로 저장."/>
+		<issue desc="양의 정수 항목의 EDIT 컨트롤은 소수점, 마이너스 입력 불가하게 제약."/>
+		<issue desc="I/O allocation/safety input의 7: Enable switch는 삭제."/>
+		<issue desc="Replan 페이지 signal type에 따라 signal 값 범위 제약."/>
+		<issue desc="CIP safety SNN 입력 형식 제한."/>
+		<issue desc="Default I/O와 additional I/O 입력 값은 10의 배수만 가능하게 제약."/>
+		<issue desc="FuncNo+Subset 유효성 검사, I/O Allocation 중복 검사."/>
+		<issue desc="high DPI 모니터에서 아이콘 작게 보이는 문제 보완."/>
+	</entry>
+</ver_log>
