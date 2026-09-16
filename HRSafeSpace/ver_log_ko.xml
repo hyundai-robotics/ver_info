@@ -16,8 +16,8 @@
 	</entry>
 	
 	<entry id="2">
-		<version>2.10.0</version>
-		<date>2026.09.10</date>
+		<version>2.10.4</version>
+		<date>2026.09.14</date>
 
 		<issue desc="[MOD] I/O Allocation - I/O Function List에 subset 표기를 #1이 아닌 #0부터 시작하도록 함."/>
 		<issue desc="[MOD] I/O Allocation - 안전 출력 &amp; 안전 통신 출력은 중복 검사 안 하게 함."/>
@@ -25,10 +25,11 @@
 		<issue desc="[FIX] 구버전 schema0 암호체계 Hi7에 대해, 암호 미설정 상태에서 HRSafeSpace2로 암호 설정했었던 경우, 그 다음 암호 확인이나 변경 시 암호 불일치로 잘못 처리되는 문제 보완."/>
 		<issue desc="[ADD] CIP safety - 원격 장치의 이더넷 IP 주소 표시"/>
 		<issue desc="[FIX] Cip safety SNN에 FFFF_FFFF_FFFG 입력 허용되는 문제 보완."/>
-		<issue desc="[FIX] I/O allocation 중복 검사 기능 보완."/>
+		<issue desc="[FIX] I/O allocation 중복 검사 기능 보완 및 일부 항목 추가."/>
 		<issue desc="[MOD] 비상정지 (혹은 시뮬레이터) 상태에서만 다운로드 가능하게 함."/>
 		<issue desc="[ADD] 단축키 추가 (Ctrl+N, Ctrl+O, Ctrl+S)"/>
 		<issue desc="[ADD] 암호 대화상자 ENTER 키로 OK 동작하게 함."/>
 		<issue desc="[ADD] `툴 - 현재 페이지 초기화` 추가."/>
+		<issue desc="[FIX] HTML report에서 일부 index 정정, 폐기된 replan 항목 2군데 삭제."/>
 	</entry>
 </ver_log>

@@ -16,8 +16,8 @@
 	</entry>
 
 	<entry id="2">
-		<version>2.10.0</version>
-		<date>2026.09.10</date>
+		<version>2.10.4</version>
+		<date>2026.09.14</date>
 
 		<issue desc="[MOD] I/O Allocation - Change the subset numbering in the I/O Function List to start from #0 instead of #1."/>
 		<issue desc="[MOD] I/O Allocation - Exclude Safety Output &amp; Safety Communication Output from duplicate checks."/>
@@ -25,10 +25,11 @@
 		<issue desc="[FIX] Fix an issue with the legacy schema0 encryption scheme Hi7 where, after setting a password using HRSafeSpace2 while no password was configured, subsequent password verification or password changes were incorrectly treated as a password mismatch."/>
 		<issue desc="[ADD] CIP Safety - Display the Ethernet IP address of the remote device."/>
 		<issue desc="[FIX] CIP Safety - Fix an issue that allowed FFFF_FFFF_FFFG to be entered as the SNN."/>
-		<issue desc="[FIX] I/O Allocation - Improve the duplicate-checking function."/>
+		<issue desc="[FIX] I/O Allocation - Improve the duplicate-checking function, and insert some item."/>
 		<issue desc="[MOD] Allow downloads only in the Emergency Stop (or Simulator) state."/>
 		<issue desc="[ADD] Add keyboard shortcuts (Ctrl+N, Ctrl+O, Ctrl+S)."/>
 		<issue desc="[ADD] Enable the OK action with the ENTER key in the password dialog."/>
 		<issue desc="[ADD] Add `Tool - Initialize Current Page`."/>
+		<issue desc="[FIX] In the HTML report, update index and remove 2 deprecated replan items."/>
 	</entry>
 </ver_log>
