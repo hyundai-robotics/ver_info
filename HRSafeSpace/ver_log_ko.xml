@@ -32,4 +32,11 @@
 		<issue desc="[ADD] `툴 - 현재 페이지 초기화` 추가."/>
 		<issue desc="[FIX] HTML report에서 일부 index 정정, 폐기된 replan 항목 2군데 삭제."/>
 	</entry>
+
+	<entry id="3">
+		<version>2.10.5</version>
+		<date>2026.11.03</date>
+
+		<issue desc="[FIX] layout/space/area에서 3200이상의 좌표값 변형되는 문제 보완."/>
+	</entry>
 </ver_log>
